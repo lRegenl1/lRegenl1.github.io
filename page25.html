@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тьма</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="page8 page25">
+    <div class="container">
+        <h2>
+            Кошмары стали выглядеть более реалистично. Происходящее стало цеплять настоящие события.
+            <br>
+            Голос: Ты ну пути к успеху, осталось несколько шагов.
+            <br>
+            Имя: Как я попал сюда?
+            <br>
+            Голос: ты ничего не помнишь? Предыдущий кошмар ничего не напоминал? Ты был археологом. Вместе с женой Сарой,
+            вы отыскали древний Анкарский саркофаг, В саркофаге был покоен демон Мара. Открыв артефакт, вы выпустили
+            Мара и стали его первыми жертвами. Теперь вы видете кошмары, а между тем демон становиться сильнее. Ты нужен
+            своей жене, она тоже застряла здесь.
+            <br>
+            Найди ее.
+
+
+        </h2>
+        <div class="btn">
+            <a class="btn-link" href="page26.html" onmouseover="soundClick()">Далее</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        document.body.innerHTML = document.body.innerHTML.replace('Имя', sessionStorage.getItem('test'))
+    </script>
+</body>
+
+</html>

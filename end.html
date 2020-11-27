@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конец</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="end">
+    <div class="container longContainer">
+        <h1>Вы прошли квест!</h1>
+        <h2>
+            Мы благодырны Вам, Имя, за уделённое на это время и надеемся, что Вам понравился наш проект! <br>
+            Вы так же можете посетить страницы создателей данного квеста в Vkontakte!
+
+        </h2>
+        <div class="contactUs-BOX">
+            <div class="contactUs">
+                <div class="combo">
+                    <a class="link link1" href="https://vk.com/litizz_2"></a>
+                    <h4 class="combo-text">Илья</h4>
+                    <!----Илья --->
+                </div>
+
+                <div class="combo">
+                    <a class="link link2" href="https://vk.com/rotten_fuf"></a>
+                    <h4 class="combo-text">Макс</h4>
+                    <!--- Макс --->
+                </div>
+
+
+                <div class="combo">
+                    <a class="link link4" href="https://vk.com/stormy_step00001"></a>
+                    <!----Люда --->
+                    <h4 class="combo-text">Люда</h4>
+                </div>
+
+
+                <div class="combo">
+                    <a class="link link4" href="https://vk.com/id138785487"></a>
+                    <!----Сёма --->
+                    <h4 class="combo-text">Сёма</h4>
+                </div>
+
+                </h2>
+            </div>
+
+            <div class="contactUs underground">
+                <div class="combo">
+                    <h4> малый вклад в проект: </h4>
+                </div>
+                <div class="combo">
+                    <a class="link link5" href="https://vk.com/id143609670"></a>
+                    <!----Токарь --->
+                    <h4 class="combo-text">Даня</h4>
+                </div>
+
+
+                <div class="combo">
+                    <a class="link link4" href="https://vk.com/id155061500"></a>
+                    <!--- Олег --->
+                    <h4 class="combo-text">Олег</h4>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="comment">
+        <h3 class="name">Комментарии</h3>
+        <div class="box-com">
+            <div class="part-up">
+                <img class="box-img" src="user.png" alt="">
+                <h3 class="name">Андрей</h3>
+            </div>
+            <h4 class="text-com">Довольно интересный сюжет, радует своей оригинальностью, по всем критериям совпало с
+                моими
+                интересами по фильмам и книгам
+                Ещё приятный глазу дизайн порадовал, в общем спасибо команде разработчиков за приятно проведенное
+                время с их произведением</h4>
+            <img class="heart" src="heart.png" alt="">
+        </div>
+
+
+        <div class="box-com">
+            <div class="part-up">
+                <img class="box-img" src="user.png" alt="">
+                <h3 class="name">Максим</h3>
+            </div>
+            <h4 class="text-com">Сюжет просто бомбический, сразу чувствуется нотки ГЕНИАЛЬНОГО сценариста, да кстати это
+                я! Понравилось
+                исполнение квеста, огромное спасибо разработчикам Людмиле Чумаковой, Семену Жгареву и Илье Литвину, за
+                прекрасную возможность осуществить свои задумки в жизнь. Благодарю Вас за ваш труд и за прекрасное
+                исполнение. Простите меня, за столь сложные выборы, которые Вам пришлось реализовывать (знаю как Вы
+                путались). Это было счастье работать с такими людьми и с такой командой, Вы лучшие !Спасибо нашим
+                потенциальным игрокам, надеюсь вы останетесь довольныыми после прохождения нашего квеста.
+            </h4>
+            <img class="heart" src="heart.png" alt="">
+        </div>
+
+
+        <div class="box-com">
+            <form action="send">
+                <div class="part-up">
+                    <img class="box-img" src="user.png" alt="">
+                    <input class="input" type="text" name="name" id="" placeholder="Имя">
+                </div>
+                <textarea class="comm-main" name="" id="" cols="30" rows="10" placeholder="Комментарий"></textarea>
+                <div class="row">
+                    <label for="like">Вам понравился проект?</label>
+
+                    <input class="like" type="radio" name="like" id="1"> Да
+                    <input class="like" type="radio" name="like" id="2"> Нет
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+        document.body.innerHTML = document.body.innerHTML.replace('Имя', sessionStorage.getItem('test'))
+    </script>
+
+    <!----- Сюжет просто бомбический, сразу чувствуется нотки ГЕНИАЛЬНОГО сценариста, да кстати это я! Понравилось исполнение квеста, огромное спасибо разработчикам Людмиле Чумаковой, Семену Жгареву и Илье Литвину, за прекрасную возможность осуществить свои задумки в жизнь. Благодарю Вас за ваш труд и за прекрасное исполнение. Простите меня, за столь сложные выборы, которые Вам пришлось реализовывать (знаю как Вы путались). Это было счастье работать с такими людьми и с такой командой, Вы лучшие !Спасибо нашим потенциальным игрокам, надеюсь вы останетесь довольныыми после прохождения нашего квеста -->
+
+</body>
+
+</html>

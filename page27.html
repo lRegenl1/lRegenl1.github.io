@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Часть 4</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="page8 page27">
+    <div class="container">
+        <h2>
+            Шон: Имя, в том доме будет сетевое подключение? Мне нужно лэвелапнуть героя в "Deadlegue"
+            <br>
+            Имя: Нет, я снял этот дом, специально вдали от цивилизации, чтобы провести время с пользой
+            <br>
+            Бриджит: Ууууу значит теперь мы как аборигены будет жить в сарае ? Я даже не смогу говорить по видеосвязи со
+            своим парнем Айзеком?
+            <br>
+            Шон: Ха ну хоть один плюс будет в этом месте
+            <br>
+            *дети стали ругаться и лишь малышка Кейт молча приглаживала своего любимого кролика, смотря в окно*
+            <br>
+            Вы чувствуете неловкость, совершенно нету никаких общих тем с детьми. Попробовав перевести тему, вы добились
+            полного молчания, и даже шуточки пролетали мимо детей, не принося никакой улыбки или смеха.
+
+        </h2>
+        <div class="btn">
+            <a class="btn-link" href="page28.html" onmouseover="soundClick()">Далее</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        document.body.innerHTML = document.body.innerHTML.replace('Имя', sessionStorage.getItem('test'))
+        document.body.innerHTML = document.body.innerHTML.replace('Имя', sessionStorage.getItem('test'))
+    </script>
+</body>
+
+</html>

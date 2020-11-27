@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Часть 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="page8 page42">
+    <div class="container">
+        <h2>Вижу вы молчите, что ж. На сегодня сеанс закончен. Прошу сопроводите Имя в его палату.<br>
+            Проходя последний коридор вы замечаете ее. Сара как всегда красива, эта девушка приносит атмосферу
+            умиротворения.
+            Заметив ваш взгляд, она заводит диалог<br>
+
+            Сара: Как ваши дела, Имя?<br>
+
+            Имя: Сара, я не сумасшедший, все это сон, кошмар, он пытается держать нас, ты должна мне помочь !<br>
+
+            Сара: Эээ, конечно, конечно я помогу. Я буду рядом.<br>
+
+            *Вы слышите голос*<br>
+            Голос: Тебя пытаются спутать, сбить с пути, если ты не выберешься, то останешься здесь навечно. Прыгни с
+            крыши<br>
+            <br>
+            Собственное бессилие толкает на отчаянный поступок. Вырываясь вы бежите по лестнице наверх, толкая
+            сотрудников и больных. Вы выбегаете наверх. Приближаясь к краю крыши вы слышите голос Сары.<br>
+
+            Сара: Имя не делай этого, пожалуйста! Тебе нужна помощь, мы поможем. Артур побежал за доктором Смитом, он
+            поговорит с тобой. Он поможет!<br>
+
+            Имя: это все нереально, это кошмар, я должен выбраться отсюда! Я должен спасти тебя! Даже если и таким
+            путём! Голос сказал мне!<br>
+
+            Сара: Нет никого голоса, а меня не нужно спасать, твои кошмары это следствие прогрессирующей болезни. Ты
+            путаешь сны с реальностью. Не прыгай, дай мне руку, я буду рядом!
+        </h2>
+        <div class="btn">
+            <a class="btn-link" href="page43.html" onmouseover="soundClick()">Дать руку</a>
+            <a class="btn-link" href="page44.html" onmouseover="soundClick()">Прыгнуть</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        document.body.innerHTML = document.body.innerHTML.replace('Имя', sessionStorage.getItem('test'))
+        document.body.innerHTML = document.body.innerHTML.replace('Имя', sessionStorage.getItem('test'))
+        document.body.innerHTML = document.body.innerHTML.replace('Имя', sessionStorage.getItem('test'))
+        document.body.innerHTML = document.body.innerHTML.replace('Имя', sessionStorage.getItem('test'))
+        document.body.innerHTML = document.body.innerHTML.replace('Имя', sessionStorage.getItem('test'))
+    </script>
+</body>
+
+</html>

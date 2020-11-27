@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Часть 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="page8 page10">
+    <div class="container">
+        <h2>Камень за камнем, вы добрались до верхушки склона. <br>
+            Пред нашими глазами представился вид огромного разваливающего моста, ведущего на другую сторону. Там
+            идеальное место для лагеря. <br>
+            Имя: Неужели это единственный путь? <br>
+            Акеми: Ха тебя остановит эта рухлядь? Куда подевался твой пыл? Я пойду первой, заметь каждая третья дощечка
+            выглядит сломанной <br>
+            Акеми прошла половину моста и стала звать нас. <br>
+            Акеми: Чего ты там застыл ? Вперёд!
+            <br>
+            <br>
+            Дощечка один, дощечка два...
+
+
+        </h2>
+        <div class="btn">
+            <a class="btn-link" href="page11.html" onmouseover="soundClick()">Дощечка три</a>
+            <a class="btn-link" href="page12.html" onmouseover="soundClick()">Дощечка четыре</a>
+        </div>
+
+        <script type="text/javascript">
+            document.body.innerHTML = document.body.innerHTML.replace('Имя', sessionStorage.getItem('test'))
+        </script>
+
+    </div>
+</body>
+
+</html>

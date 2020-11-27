@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тьма</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="page8 page14">
+    <div class="container left">
+        <h2>*Свет*
+            <br>
+            Мужчина 1: Что с ним произошло?
+            <br>
+            Мужчина 2: Он вместе с чёкнутой прыгал по крышам. Чуть не свалился, если бы не Артур.
+            <br>
+            Мужчина 1: Он выживет?
+            <br>
+            Мужчина 2: Лучше бы умер, наводит только шумиху.
+            <br>
+            *тьма*
+            <br>
+            Голос: Демон пытается тебя запутать, сохраняй рассудок.
+            <br>
+            Имя: Кто ты? Почему помогаешь мне?
+            <br>
+            Голос: У меня нет имени, можешь называть меня своим ангелом. Я Пытаюсь вытянуть тебя из бесконечного ужаса.
+            Демон вытягивает твои воспоминания и интерпретирует в своей зловещей форме.
+
+        </h2>
+        <div class="btn">
+            <a class="btn-link" href="page15.html" onmouseover="soundClick()">Далее</a>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        document.body.innerHTML = document.body.innerHTML.replace('Имя', sessionStorage.getItem('test'))
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+    <script>
+        console.log(name)
+    </script>
+</head>
+
+<body class="main-page">
+    <div class="container">
+        <script>
+            const name = prompt("Введите Ваше имя:")
+            document.write("<div class = " + "text-box" + "> <h2 class = " + "text-box-title" + ">Здравствуйте, " + name + "!</h2> <h3 class = " + "text-box-title" + ">Мы рады видеть Вас на нашем интерактивном квесте <br>*Кругом мрак, Вы слышите голос* <br> Голос: Вы во владениях могущественного демона, который питается Вашим страхом. Люди часто попадаются в его сети. Сейчас я введу Вас в курс дела. Вы находитесь в кошмаре и нужно из него выбраться. Я постараюсь помочь. Будьте аккуратнее и следите внимательно за ситуацией. На протяжении квеста будет предоставляться выбор действия. Выбирайте с умом, ищите подсказки и, самое главное, буквы. Это пригодится. Удачи. <br> Глаза слипаются, Вы начинаете игру </h3></div>")
+            sessionStorage.setItem('test', name)
+        </script>
+        <div class="btn">
+            <a class="btn-link" href="prolog.html" onmouseover="soundClick()">Перейти к прологу</a>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

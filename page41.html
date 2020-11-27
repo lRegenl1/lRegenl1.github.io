@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Часть 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="page8 page41">
+    <div class="container">
+        <h2>Докотор Смит: Дорогой Имя. У вас никогда не было детей, вы никогда не имели жены, ваша влюблённость к нашей
+            медецинской сестре по имени Саре породила сей причудливый сон. Все это плод вашего воображения! Вы устроили
+            пожар в столовой. Чуть не свалились с крыши. Обвинили главного врача в контрабанде и устроили побег. А то с
+            каким ужасом вы смотрели на новых сотрудников нашей психиатрической больницы, то как вы их называли,
+            инопланетянами кажется, говорит о том, что болезнь прогрессирует. Вы не ощущаете реальность.
+            <br>Я вижу лишь один вариант. Нужно найти причину вашего состояния. Для этого есть два пути. Вы можете
+            проанализировать и снова попасть в ваши грезы. Или сказать сейчас, если были достаточно внимательны к
+            мелочам.
+        </h2>
+        <div class="btn">
+            <a class="btn-link" href="page1.html" onmouseover="soundClick()">Вернуться в сны</a>
+            <a class="btn-link" href="password.html" onmouseover="soundClick()">Я знаю слово</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        document.body.innerHTML = document.body.innerHTML.replace('Имя', sessionStorage.getItem('test'))
+    </script>
+</body>
+
+</html>

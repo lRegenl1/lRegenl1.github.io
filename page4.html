@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Часть 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body class="page4">
+
+    <div class="container left">
+        <h2 class="nameReplay">Имя:Хей! Как дела?
+            <br>
+            Артур: Да все нормально, не считая сегодняшней эвакуации, слышал уже? Правый запасной выход перекрыт и мне
+            теперь не выскользнуть с уроков незамеченным.
+            <br class="nameReplay">Имя: Ох, ну зато сегодня у тебя есть шансы получить лекцию о вреде курения после
+            уроков.
+            <br>
+            *Звенит звонок*
+
+        </h2>
+        <div class="btn">
+            <a class="btn-link" href="page5.html" onmouseover="soundClick()">Далее</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        document.body.innerHTML = document.body.innerHTML.replace('Имя', sessionStorage.getItem('test'))
+        document.body.innerHTML = document.body.innerHTML.replace('Имя', sessionStorage.getItem('test'))
+    </script>
+
+</body>
+
+</html>

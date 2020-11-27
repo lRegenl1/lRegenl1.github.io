@@ -1,0 +1,457 @@
+body{
+    margin: 0;
+}
+
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 1000px;
+    background: white;
+    color: white;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    color: black
+    
+}
+
+.box-img{
+    width: 40px;
+    background: whitesmoke;
+    border-radius: 20px;
+}
+
+.box-com{
+    width: 600px;
+    background: #b5b5b5;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 30px;
+    position: relative;
+    
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    width: 400px;
+    margin: 2px 5px;
+    border: none;
+    border-radius: 20px;
+}
+
+.heart{
+    width: 25px;
+    height: 25px;
+}
+
+.row{
+    margin: 2px 15px
+}
+
+.part-up{
+    display: flex
+}
+
+.comm-main{
+    resize: none;
+    border: 0px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.name{
+    margin: 10px;
+}
+
+.like{
+    width: 0px;
+    text-align: left;
+    
+}
+
+.main-page{
+    background: url('Darkness.jpg')
+}
+
+.prolog-page{
+    background: url('prolog.jpg');
+    background-size: 100%
+}
+
+.end{
+    background: url('imgf/end.jpg');
+    background-size: 100%;
+    background-attachment:fixed
+}
+
+.page1{
+    background: url('page1.jpg');
+    background-size: 100%;
+    background-position-y: 90%;
+    background-repeat: no-repeat;
+}
+
+.page2, .page3{
+    background: url('page2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.page4{
+    background: url('page4.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 86%;
+}
+
+.page5{
+    background: url('page5.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.page6{
+    background: url('page6.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.page7{
+    background: url('4.jpg');
+    background-size: 100%;
+    
+}
+
+.page8{
+    background: url('5.jpg');
+    background-size: 100%;
+}
+
+.page9{
+    background: url('5.jpg');
+    background-size: 100%;
+}
+
+.page10, .page12, .page13{
+    background: url('imgf/page10-13.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.page11{
+    background: url('imgf/jump.jpg');
+    background-size: 100%;
+    background-position-y: 70%
+    
+}
+
+.page13{
+    background: url('imgf/page10-13sh.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.page14{
+    background: url('imgf/page14.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+.page15{
+    background: url('imgf/page15.jpg');
+    background-size: 110%;
+    background-repeat: no-repeat
+}
+
+.page16, .page17{
+    background: url('imgf/page16-17.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+.page18{
+    background: url('imgf/page18.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+}
+
+.page19, .page22{
+    background: url('imgf/page19.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.page20, .page23{
+    background: url('imgf/shot.jpg');
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-y: 70%;
+    
+}
+
+.page24{
+    background: url('imgf/page24.jpg');
+    background-size: 100%;
+    background-position-y: 35%; 
+}
+
+.page25{
+    background: url('imgf/page25.jpg');
+    background-size: 100%;
+    
+}
+
+.page26, .page27{
+    background: url('imgf/page26.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+.page28{
+    background: url('imgf/page27v2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+.page29{
+    background: url('imgf/page28.jpg');
+    background-size: 100%;
+} /* горящий дом*/
+
+.page32, .page30, .page31{
+    background: url('imgf/page29.jpg');
+    background-size: 100%;
+} /* огонь внутри*/
+
+.page37, .page38, .page33, .page34{
+    background: url('imgf/page28blur.jpg');
+    background-size: 100%;
+}
+
+.page40, .page35, .page36, .page39{
+    background: url('imgf/page30final.jpg');
+    background-size: 100%;
+}
+
+.page41{
+    background: url('imgf/psychoreal.jpg');
+    background-size: 100%;
+}
+
+.password{
+    background: url('page6.jpg');
+    background-size: 100%;
+}
+
+.page42{
+    background: url('imgf/psychoUp.jpg');
+    background-size: 100%;
+    background-position-y: 50%;
+}
+
+.page44{
+    background: url('imgf/psychoUpfinal.jpg');
+    background-size: 100%;
+    background-position-y: 60%
+}
+
+.page43{
+    background: url('imgf/psycho.jpg');
+    background-size: 100%;
+    background-position-y: 70%;
+}
+
+.prologpic{
+    width: 270px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+    width: 1000px;
+    height: 94vh;
+    text-align: center;
+    background: white;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    color: black
+}
+
+.longContainer{
+    border-radius: 20px 20px 0 0;
+    
+    height: 50vh;
+}
+
+
+.text-box{
+    box-shadow: 1px 5px 10px gray;
+    border-radius: 20px;
+    width: 900px;
+    margin: 30px;
+    padding: 10px;
+}
+
+.text-box-title{
+    margin: 0;
+    padding: 10px;
+}
+
+.btn{
+    display: flex;
+   
+}
+
+.contactUs-BOX{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+
+.btn-link{
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background: gray;
+    border-radius: 20px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.so-long{
+    border-radius: 30px ;
+    width: 450px;
+    height: 60px;
+}
+
+.contactUs{
+    display: flex;
+}
+
+.combo{
+    margin: 15px
+}
+
+
+
+.combo-text{
+   margin: 0;
+    color: darkred
+}
+
+.text-com{
+    margin: 5px;
+    padding: 5px;
+}
+
+.link{
+    display: flex;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background: url('vk.png');
+    background-size: 100%;
+    border-radius: 30px;
+    text-decoration-line: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.link:hover{
+    box-shadow: 1px 2px 3px black
+}
+
+.back{
+    width: 50px;
+    height: 30px;
+    background: red;
+    position: fixed;
+    top: 40px;
+    left: 20px;
+    visibility: hidden;
+}
+
+.word{
+    width: 50px;
+    height: 50px;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 51%;
+    right: 6%;
+    box-shadow: 1px 2px 3px rebeccapurple;
+    border-radius: 50px;
+    opacity: 0.8;
+    color: white;
+}
+
+.word2{
+    top: 40%;
+    left: 10%;
+    background: black;
+    box-shadow: 1px 2px 3px black;
+    opacity: 0.3;
+    
+}
+
+.word3{
+    top: 80%;
+    left: 30%;
+    background: black;
+    box-shadow: 1px 2px 3px black;
+    opacity: 0.3; //
+    
+}
+
+.word4{
+    top: 85%;
+    left: 70%;
+    background: black;
+    box-shadow: 1px 2px 3px black;
+    opacity: 0.3;
+    
+}
+
+.word5{
+    top: 60%;
+    left: 5%;
+    background: black;
+    box-shadow: 1px 2px 3px black;
+    opacity: 0.3;
+    
+}
+
+.word6{
+    top: 40%;
+    left: 90%;
+    background: black;
+    box-shadow: 1px 2px 3px black;
+    opacity: 0.3;
+    
+}
+
+.left{
+    text-align: left;
+}
+
+
+.flag{
+    color: gray
+}
